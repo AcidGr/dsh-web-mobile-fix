@@ -25,11 +25,13 @@ The plugin ships a browser half (`exports["./client"]`, declared via `dsh.client
 
 ### Bundle install (recommended)
 
+Installed from npm:
+
 ```sh
 dsh plugin --profile web add dsh-web-mobile-fix
 ```
 
-(Once the package is published to npm, plain `dsh plugin --profile web add dsh-web-mobile-fix` works; until then point pnpm at this repo:
+(No npm / local development — point pnpm at the repo instead:
 
 ```sh
 dsh plugin --profile web add github:AcidGr/dsh-web-mobile-fix

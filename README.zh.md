@@ -25,11 +25,13 @@
 
 ### 方式一：bundle 安装（推荐）
 
+从 npm 安装：
+
 ```sh
 dsh plugin --profile web add dsh-web-mobile-fix
 ```
 
-（发布到 npm 后直接使用包名；尚未发布时用仓库地址：
+（不走 npm / 本地开发时，可用仓库地址：
 
 ```sh
 dsh plugin --profile web add github:AcidGr/dsh-web-mobile-fix

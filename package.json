@@ -21,5 +21,21 @@
     "client": {
       "platform": "web"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcidGr/dsh-web-mobile-fix.git"
+  },
+  "homepage": "https://github.com/AcidGr/dsh-web-mobile-fix",
+  "bugs": {
+    "url": "https://github.com/AcidGr/dsh-web-mobile-fix/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "mobile",
+    "web-ui",
+    "css"
+  ]
 }
