@@ -1,5 +1,7 @@
 # dsh-web-mobile-fix
 
+[English](README.md) | **简体中文**
+
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web UI 的移动端布局修复插件。
 
 纯客户端 CSS 覆盖层，在窄屏（视口 ≤700px）下修复最影响使用的移动端问题，完全不改动产品源码：
