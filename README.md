@@ -23,24 +23,31 @@ The plugin ships a browser half (`exports["./client"]`, declared via `dsh.client
 
 ## Install
 
-### Bundle install (recommended)
+### Method 1: Ask your DSH Agent (Easiest 🤖)
 
-Installed from npm:
+Just send this repository link directly to your DSH web chat and say:
+> "Install this plugin for me: https://github.com/AcidGr/dsh-web-mobile-fix"
+
+Your DSH coding agent will automatically execute the installation command and set everything up for you.
+
+### Method 2: CLI Install (Recommended)
+
+Install from npm:
 
 ```sh
 dsh plugin --profile web add dsh-web-mobile-fix
 ```
 
-(No npm / local development — point pnpm at the repo instead:
+(Or install directly from GitHub:
 
 ```sh
 dsh plugin --profile web add github:AcidGr/dsh-web-mobile-fix
 ```
 )
 
-Restart `dsh web` (or wait for the profile hot-reload), then hard-refresh the browser.
+After installation, simply refresh your browser.
 
-### Manual install (no pnpm / offline)
+### Method 3: Manual install (no pnpm / offline)
 
 ```sh
 PROFILE="$DSH_HOME/profiles/web"                 # adjust DSH_HOME and profile name
@@ -55,7 +62,10 @@ ln -sfn ../../plugins/mobile-fix "$PROFILE/node_modules/@dsh-profile/mobile-fix"
 
 ## Verify
 
-Open the Web UI on a phone-width window — the settings panel, sidebar, and popups should be mobile-adapted.
+Open the Web UI on a phone or resize your browser to mobile width (≤700px):
+- Click the whale logo to open the sidebar: it will smoothly open as an overlay drawer without squeezing your conversation content, and taps outside will collapse it;
+- The composer bar tools and the send button stay on a single row without wrapping or layering;
+- The settings modal displays as a full-screen vertical layout with scrollable tabs.
 
 ## Rollback
 
