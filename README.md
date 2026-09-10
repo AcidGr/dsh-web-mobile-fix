@@ -8,12 +8,9 @@ Mobile layout fixes for the [DeepSeek Harness](https://github.com/deepseek-ai/de
 A pure client-side CSS overlay that repairs the worst mobile breakages on narrow (≤700px viewport) screens, without touching any product source:
 
 - Settings panel becomes a full-screen column layout instead of a squeezed desktop layout
-- Directory-picker footer (Cancel / Confirm) pinned to one bottom row
-- Sidebar opens full-screen instead of squeezing the conversation
-- Settings plugin navigation (4 buttons) fits on a single row
-- Session-log button collapses to an icon
-- Model name hidden in the composer (chevron only)
-- Dropdowns / popups / menus render centered
+- Sidebar opens floating instead of squeezing the conversation
+- Settings nav tabs fit on a single horizontal row
+- Composer action bar fits on a single row without wrapping or layering
 
 ## How it works
 
